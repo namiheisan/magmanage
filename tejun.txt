@@ -1,0 +1,28 @@
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install apache2 php php-pgsql libapache2-mod-php postgresql php-dev git php-mbstring
+$ sudo phpenmod pdo_pgsql
+$ sudo systemctl restart apache2
+$ sudo su - postgres
+$ adduser username
+$ createuser username -s
+$ createdb magdb
+$ psql magdb
+# alter user username with password 'password';
+# \q
+ÅmCtrl+DÅn
+$ sudo su - username
+$ psql magdb
+# create table article (
+valid int,
+number int not null,
+issue text,
+status int,
+charge int,
+place int,
+page int,
+pkey serial primary key
+);
+# \q
+$ exit
+$ sudo git clone https://github.com/Synchro/PHPMailer.git
