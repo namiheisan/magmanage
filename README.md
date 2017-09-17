@@ -1,7 +1,6 @@
 
 # Magazine's Production Managament System(magmanage)
-This software is a magazine production management system. Ease the exchange between publisher and production company.I wrote it in PHP. 
-admin / issue_ctrl.php is the article name registration screen.Use issue_manage.php to exchange production company and publisher.
+This software is a magazine production management system. Ease the exchange between publisher and production company.I wrote it in PHP.
 
 ## Install
 Please install for Ubuntu as follows:
