@@ -40,7 +40,7 @@ $ sudo cp -a * /var/www/html/.
 $ cd /var/www/html
 $ sudo git clone https://github.com/Synchro/PHPMailer.git
 ~~~
-I am using PHPMailer for sending mails.
+using [PHPMailer](https://github.com/Synchro/PHPMailer.git) for sending mails.
 
 ## How to use
 Rewrite `username` `password` `editor_address` `production_address` `magazine_name` `gmail_address` `gmail_password` in /var/www/html/config.php. Please access `http://installed machine's IP address/admin/issue_ctrl.php` with a web browser. The UI for article name management is displayed. When accessing `http://installed machine's IP address/issue_manage.php`, UI for displaying production company and publisher is displayed.
