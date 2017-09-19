@@ -2,7 +2,7 @@
 # Magazine's Production Managament System(magmanage)
 This software is a magazine production management system. Ease the exchange between publisher and production company.I wrote it in PHP.
 
-## Install
+## How to Install
 Please install for Ubuntu as follows:
 ~~~
 $ sudo apt update
